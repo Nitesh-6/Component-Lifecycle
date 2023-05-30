@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+.main {
+  width: 100vw;
+  display: flex;
+  background-color: blueviolet;
+}
+
+.logo-image {
+  width: 10vw;
+  height: 20vh;
+}
+
+.logo {
+  display: flex;
+  width: 10vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 90vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* margin-left: -7%; */
+}
+.components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: larger;
+  /* margin-left: 1px; */
+}
+.components a {
+  color: white;
+  text-decoration: none;
+}
+.footer {
+  background-color: blueviolet;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.mounting,
+.updating,
+.unMounting,
+.body {
+  padding: 5%;
+  font-size: larger;
+}
+.note {
+  font-weight: 100;
+}
